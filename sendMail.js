@@ -30,14 +30,13 @@ const sendForgotPasswordEmail = async ( email, token )=>{
             <p style="padding: 10px 0;">If the button does not work, please use the link below:</p>
 
             <p style="word-break: break-all; padding: 10px 0;">
-                <a href="https://www.fintech-digital-wallet.com/reset-password/${token}" style="color: #007bff;">https://www.fintech-digital-wallet.com/reset-password/${token}</a>
+                <a href="https://www.fintech-digital-wallet.com/reset-password/${token}" style="color: #007bff;"> Click this link... </a>
             </p>
 
             <p style="padding: 10px 0;">Best regards,</p>
             <p style="padding: 0;">Your PayFlow Team</p>
 
-            <p style="padding: 10px 0 0 0; border-top: 1px solid #dddddd; font-size: 12px; color: #666666;">&copy; 2023 Your PayFlow. All rights reserved.</p>  
-            ${token} 
+            <p style="padding: 10px 0 0 0; border-top: 1px solid #dddddd; font-size: 12px; color: #666666;">&copy; 2023 Your PayFlow. All rights reserved.</p>   
         </div> `
       
 }
